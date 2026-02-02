@@ -93,7 +93,7 @@
   },
   "GRAN TURISMO [Livre]": {
     "persona": "maurice",
-    "description": "- Livre photographique -<br><br>Après Seuls Sous Les Pins (mon premier livre)*, ce livre photographique, en cours de conception, est un projet de recherche-action mêlant recherche et photographie.<br>Réalisé en collaboration avec Camille Mortelette, géographe et urbaniste, le projet interroge l’architecture devenue « jetable », nourrie par une culture du consommable et de la satisfaction immédiate.<br>Une réflexion sur la manière dont l'humain façonne son territoire à l'image de sa société : le capital.<br><br>À venir courant de l'année 2026.<br><br>Photographie : Maurice Lebrun<br>Textes : Camille Mortelette",
+    "description": "- Livre photographique -<br><br>Après Seuls Sous Les Pins (mon premier livre), ce livre photographique, en cours de conception, est un projet de recherche-action mêlant recherche et photographie.<br>Réalisé en collaboration avec Camille Mortelette, géographe et urbaniste, le projet interroge l’architecture devenue jetable, nourrie par une culture du consommable et de la satisfaction immédiate.<br>Une réflexion sur la manière dont l'humain façonne son territoire à l'image de sa société : le capital.<br><br>À venir courant de l'année 2026.<br><br>Photographie : Maurice Lebrun<br>Textes : Camille Mortelette",
     "blocks": [
     {
         "type": "carousel",
@@ -125,9 +125,80 @@
     }
   ]
 },
+"MEMORIES OF LAZARUS [Expo & Instal]": {
+    "persona": "maurice",
+    "description": "- Exposition et installation numérique -<br><br>Peu après la sortie de Seuls Sous Les Pins, l’IA pointait tout juste le bout de son nez sous forme de script open source collaboratif en python.<br> A cette période, je réfléchissais à ce qu’allait devenir les carcasses d’usines que j’avais photographié, à présent vidées de leurs salariés et de leurs substances.<br> J’avais une idée précise de ce qu’allait devenir notre monde à travers la révolution artificielle et je souhaitais théoriser/illustrer ma pensée (cf pdf memories of Lazarus).<br><br>J’ai donc entraîné une IA, que j’ai appelé -Henri- (en hommage a Henri Rousseau) et avec laquelle j’ai collaboré sur des tableaux numériques. Je la nourrissais avec mes photos de carcasses et lui demandait de les imaginer 100 ans plus tard.<br>J'ai sélectionné un corpus d'oeuvres avec soin et entretenus de longs échanges de travail avec Henri. Ainsi naissait ma collaboration avec une entité numérique.<br><br>Pour notre exposition à l’institut français de Berlin, j’ai conçu (avec max/msp et pure data) une interface interactive. Interface à travers laquelle les spectateurs ont pu converser avec Henri sur notre travail collaboratif (cf vidéo en bas).<br> La boucle était bouclée, Henri était en mesure, tout comme moi, de défendre nos oeuvres.<br><br>Exposé à l'institut Français de <a href='https://vimeo.com/966723474?share=copy&fl=sv&fe=ci' target='_blank'>Berlin</a>",
+    "blocks": [
+    {
+        "type": "pdf",
+        "src": "./assets/pdf/lazarus.pdf",
+        "height": 864
+    },
+    {
+      "type": "links",
+      "links": [
+        {
+          "label": "./file",
+          "url": "./assets/pdf/lazarus.pdf",
+          "download": true
+        }
+      ]
+    },
+    {
+        "type": "carousel",
+        "images": ["./assets/img/lazarus/IA-01.jpg",
+                  "./assets/img/lazarus/IA-02.jpg",
+                  "./assets/img/lazarus/IA-03.jpg",
+                  "./assets/img/lazarus/IA-04.jpg",
+                  "./assets/img/lazarus/IA-05.jpg",
+                  "./assets/img/lazarus/IA-06.jpeg",
+                  "./assets/img/lazarus/ifberlin.jpg",
+                  "./assets/img/lazarus/berlin01.jpg",
+                  "./assets/img/lazarus/berlin02.jpg",
+                  "./assets/img/lazarus/berlin03.jpg",
+                  "./assets/img/lazarus/FA01.jpeg",
+                  "./assets/img/lazarus/FA02.jpeg",
+                  "./assets/img/lazarus/FA03.jpeg"
+                  ]
+    },
+    {
+        "type": "youtube",
+        "youtubeId": "mmIOTZ-pglI",
+        "caption": "Interface interactive audiovisuelle avec l'IA de HENRI"
+    }
+  ]
+},
+"SEULS SOUS LES PINS [Livre]": {
+    "persona": "maurice",
+    "description": "- Livre photographique -<br><br>Seuls sous les pins est le premier sujet sur lequel j’ai travaillé comme photographe. Il est fondateur pour moi puisqu’il s’agit de défendre et raconter mon pays (les Landes).<br> Pour cet essai, je me suis associé à Benjamin Caule, archéologue et spécialiste de la Landes Gascone.<br> Ensemble, nous inscrivons le pin, son histoire et son industrie dans le paysage marécageux originel des Landes.<br>Bienvenue dans les Landes post-moderne.<br><br>Photographie : Maurice Lebrun<br>Textes : Benjamin Caule<br><br>Exposé à Bordeaux et à la maison de la photographie des Landes",
+    "blocks": [
+    {
+        "type": "carousel",
+        "images": ["./assets/img/sslp/SSLP-01.jpeg",
+                  "./assets/img/sslp/SSLP-02.jpeg",
+                  "./assets/img/sslp/SSLP-03.jpeg",
+                  "./assets/img/sslp/SSLP-04.jpeg",
+                  "./assets/img/sslp/SSLP-05.jpeg",
+                  "./assets/img/sslp/SSLP-06.jpeg",
+                  "./assets/img/sslp/SSLP-07.jpeg",
+                  "./assets/img/sslp/SSLP-10.jpeg",
+                  "./assets/img/sslp/SSLP-11.jpeg"]
+    },
+    {
+        "type": "image",
+        "src": "./assets/img/sslp/01.jpg",
+        "alt": "Seuls sous les pins de Maurice Lebrun."
+    },
+    {
+        "type": "youtube",
+        "youtubeId": "bBsOuUhPTLk",
+        "caption": "Extrait du livre"
+    }
+  ]
+},
   "#Photographie": {
     "persona": "maurice",
-    "description": "La photographie est le medium par lequel je suis entré dans le monde de l'image.<br> 20 ans plus tard, j'ai réalisé de nombreuses expositions et possède une belle collection de travaux sur des thématiques variées.<br> Des plateaux de cinéma aux villages du Japon détruits par le tsunami en 2011.<br><br>Expositions :<br>- MAISON BOURBON / 2021 BORDEAUX <br>- INSTITUT FRANÇAIS / 2023 BERLIN<br>- MAISON DE LA PHOTOGRAPHIE / 2024 LABOUHEYRE<br>- LA FLÊCHE SAINT MICHEL / 2025 BORDEAUX",
+    "description": "La photographie est le medium par lequel je suis entré dans le monde de l'image.<br> 20 ans plus tard, j'ai réalisé de nombreuses expositions et possède une belle collection de travaux sur des thématiques variées.<br> Des plateaux de cinéma aux villages du Japon détruits par le tsunami en 2011.<br><br>Expositions :<br>- Maison Bourbon / 2021 BORDEAUX <br>- Institut Français / 2023 BERLIN<br>- Maison de la photographie / 2024 LABOUHEYRE<br>- La Flèche de Saint Michel / 2025 BORDEAUX",
     "blocks": [
       {
       "type": "grid",
@@ -178,7 +249,7 @@
 },   
   "#Films": {
     "persona": "maurice",
-    "description": "Ma pratique de la photographie m'a naturellement amené à la fabrique d'images animées.<br><br>",
+    "description": "Ma pratique de la photographie m'a naturellement amené à la fabrique d'images animées.<br>----------<br>IMAGE est une collection de séquences de mes projets film.<br> Du tsunami qui a ravagé Fukushima aux salariés de Darbo à Linxe.<br><br>COSMOLOGIA est mon premier court métrage de fiction. Il questionne l’environnement spirituel dans lequel nous évoluons en tant qu’être humain.<br>J'ai également composé toute la bande sonore de ce film.<br><br>MORVARID K est le portrait d’une artiste plasticienne franco-iranienne.<br><br>LA DUCHESSE est un court métrage de <br><a href='https://www.instagram.com/romain_campet' target='_blank'>Romain Campet</a><br>J’ai travaillé comme chef opérateur.<br> Il questionne l’avarice et l’apparence qu’elle nous donne.",
     "blocks": [
       {
         "type": "youtube",
@@ -204,7 +275,7 @@
   },
   "#Musique": {
     "persona": "franky",
-    "description": "Franky est mon alias compositeur de musique de films, musique live.<br><br>J'ai évolué avec les groupes :<br>- PECNOLOGIE (1 Album)<br>- RAS El HANOUT (1 EP) et bien d'autres collaborations.<br><br>Un album et un live sont en préparation.<br><br><a href='https://soundcloud.com/franky-fahrenheit' target='_blank'>Soundcloud Franky</a><br><br><a href='https://soundcloud.com/pecnologie' target='_blank'>Soundcloud Pecnologie</a>",
+    "description": "<a href='https://www.instagram.com/franky_fahrenheit/' target='_blank'>Franky</a> est mon alias compositeur.<br> De musique de films, de musique électronique live.<br><br>J'ai évolué avec les groupes :<br><a href='https://www.instagram.com/pecnologie/' target='_blank'>Pecnologie</a> (1 Album)<br>Ras El Hanout (1 EP)<br><br>Un album et un live sont en préparation.",
     "blocks": [
       {
         "type": "image",
@@ -246,7 +317,7 @@
     ]
   },
     "Curriculum Vitae": {
-    "description": "- Biographie -<br><br>Carrossier à l’âge de 17 ans, J'ai traîné mes pieds dans les ateliers de réparations de voitures et les chantiers de construction avant de découvrir les images comme un moyen d’expression.<br> A Paris, j'ai notamment travaillé avec Pip Chodorov sur «Free Radicals», un film sur la vague du cinéma expérimental orchestré par Jonas Mekas, Maurice Lemaitre, Maya Deren et d’autres.<br> Ce souffle de liberté dans une expression aussi rigide que le cinéma industriel m’a beaucoup inspiré et encouragé. La fabrication d’images et de sons devient alors un mode de vie.<br> Je recontrerais peu de temps après au sein du collectif Kloudbox, la famille et les ressources que je cherchais pour créer avec de nombreux médiums différents.<br> D’installations vidéo artistiques aux sujets documentaires photographiques.<br> Du film indépendant aux vibrations sonores et musicales sur scène.<br><br>",
+    "description": "- Biographie -<br><br>Carrossier à l’âge de 17 ans, J'ai traîné mes pieds dans les ateliers de réparations de voitures et les chantiers de construction avant de découvrir les images comme un moyen d’expression.<br> Lors de mon inévitable passage à Paris, j'ai travaillé avec Pip Chodorov sur «Free Radicals», un film sur la vague du cinéma expérimental emmenée par Jonas Mekas, Maurice Lemaitre, Maya Deren et bien d’autres.<br> Ce souffle de liberté dans une expression aussi rigide que le cinéma industriel m’a énormément inspiré.<br>La fabrication d’images et de sons devient alors un mode de vie.<br> Je recontrerais peu de temps après au sein du collectif Kloudbox, la famille et les ressources que je cherchais pour créer avec de nombreux médiums différents.<br><br> D’installations vidéo artistiques aux sujets documentaires photographiques. Du film indépendant aux vibrations sonores et musicales sur scène.<br>J'orchestre mon identité en perpétuelle mutation.",
     "blocks": [
       {
         "type": "pdf",
