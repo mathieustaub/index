@@ -230,7 +230,7 @@
         "./assets/img/photographie/25.jpg",
         "./assets/img/photographie/26.jpg",
         "./assets/img/photographie/27.jpg",
-        "./assets/img/photographie/41.jpg",
+        "./assets/img/photographie/28.jpg",
         "./assets/img/photographie/29-2.jpg",
         "./assets/img/photographie/30.jpg",
         "./assets/img/photographie/31.jpg",
@@ -275,7 +275,7 @@
   },
   "#Musique": {
     "persona": "franky",
-    "description": "<a href='https://www.instagram.com/franky_fahrenheit/' target='_blank'>Franky</a> est mon alias compositeur.<br> De musique de films, de musique électronique live.<br><br>J'ai évolué avec les groupes :<br><a href='https://www.instagram.com/pecnologie/' target='_blank'>Pecnologie</a> (1 Album)<br>Ras El Hanout (1 EP)<br><br>Un album et un live sont en préparation.",
+    "description": "<a href='https://www.instagram.com/franky_fahrenheit/' target='_blank'>Franky</a> est mon alias compositeur.<br> De musique de films, de musique électronique live.<br><br>Ma pratique de la musique a toujours été étroitement liée aux images que je produisais. J’écrivais pour mes films ou pour les autres.<br>Mais depuis quelques temps, l’envie de monter sur scène et d’interpréter l’univers spatial et loufoque de Franky est devenu une immense source de bonheur.<br> Aujourd’hui, beaucoup de mes projets tournent autour de la musique, de la recherche sonore mélée aux visuels(voir #MaxMsp)<br><br>J'ai évolué avec les groupes :<br><a href='https://www.instagram.com/pecnologie/' target='_blank'>Pecnologie</a> (1 Album)<br>Ras El Hanout (1 EP)<br><br>Un album et un live sont en préparation.",
     "blocks": [
       {
         "type": "image",
