@@ -32,8 +32,8 @@
       html.theme-alt-a{
         --bg:#000000;
         --fg:#00ff22;
-        --muted:rgba(0,255,34,0.7);
-        --accent:#51ff00;
+        --muted:rgba(255, 255, 255, 1);
+        --accent:#fff700;
         --link:#00ff22;
         --link-border:rgba(0,255,34,0.8);
       }
@@ -132,7 +132,7 @@
       .caroussel-container.visible{
         margin-top:40px;
         margin-bottom:50px;
-        max-height:2000px;
+        max-height:6000px;
         opacity:1;
       }
 
@@ -181,7 +181,10 @@
         color:var(--link);
         transition:opacity .2s ease;
       }
-      .description-project > a:hover{ opacity:.75; }
+      .description-project > a:hover{ 
+        opacity:.75;
+        
+       }
 
       /* -----------------------
          Carousel
@@ -253,6 +256,33 @@
         outline:none;
         box-shadow:none;
         overflow:hidden;
+      }
+
+      .module-video{       /* 🎯 vimeo */
+        width: 612px;
+        aspect-ratio: 16 / 9;
+        margin-top: 15px;
+      }
+
+      .module-video iframe{
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+
+      /* 🎯 uniquement les portraits */
+      .module-video.is-portrait{
+        width: 446px;
+        aspect-ratio: 9 / 16;
+        margin-left: 0px;
+        overflow: visible;
+      }
+
+      .module-video.is-portrait iframe{
+        width: 100%;
+        height: 100%;
+        border: 0;
+        transform: none;   /* ✅ pas de crop */
       }
 
       .module-caption{
@@ -376,6 +406,7 @@
       ------------------------ */
       .legend{
         margin-top:0px;
+        margin-bottom: 30px;
         font-family:"Avenir Book";
         color:var(--muted);
       }
@@ -384,7 +415,7 @@
         font-weight:none;
       }
 
-      .contact-block{ margin-top:50px; }
+      .contact-block{ margin-top:10px; }
 
       .mail-row{
         display:inline-flex;
@@ -513,7 +544,7 @@
          Bottom slideshow (double buffer)
       ------------------------ */
       .random-slideshow-container{
-        margin-top:10px;
+        margin-top:15px;
         width:min(700px, 100%);
       }
 
@@ -556,7 +587,10 @@
         transition:opacity 1s ease;
       }
 
-
+      .word.hinted{
+        color: #00ff26ff;
+        /*text-decoration: underline;*/
+      }
 
     </style>
   </head>
@@ -620,10 +654,12 @@
             <span class="word is-highlighted">SOMA [Live A/V]</span>
             <span class="word is-highlighted">JUSTICE & MECAOCTET [Film]</span>
             <span class="word is-highlighted">GRAN TURISMO [Livre]</span>
+            <span class="word is-highlighted">MEMORIES OF LAZARUS [Expo & Instal]</span>
             <span class="word">BONNES VACANCES AU CHÔMAGE [Série]</span>
+            <span class="word">SEULS SOUS LES PINS [Livre]</span>
           </div>
 
-           <p class="legend"><span class="tag">[...]</span> = Projets récents</p>
+          <!-- <p class="legend"><span class="tag">[...]</span> = Projets récents</p> -->
 
           <div class="random-slideshow-container">
             <div class="random-slideshow-frame">
@@ -1023,13 +1059,20 @@ window.addEventListener("DOMContentLoaded", async () => {
       }
 
       if (block.type === "vimeo") {
+        const wrapper = document.createElement("div");
+        wrapper.className = "module-video";
+        if (block.format === "portrait") {
+          wrapper.classList.add("is-portrait");
+        }
+
         const iframe = document.createElement("iframe");
-        iframe.className = "module-youtube";
         iframe.src = `https://player.vimeo.com/video/${block.vimeoId}?title=0&byline=0&portrait=0`;
         iframe.allow = "autoplay; fullscreen; picture-in-picture";
         iframe.allowFullscreen = true;
         iframe.loading = "lazy";
-        modulesEl.appendChild(iframe);
+
+        wrapper.appendChild(iframe);
+        modulesEl.appendChild(wrapper);
 
         if (block.caption) {
           const cap = document.createElement("div");
@@ -1039,6 +1082,7 @@ window.addEventListener("DOMContentLoaded", async () => {
         }
         return;
       }
+
 
       if (block.type === "image") {
         const img = document.createElement("img");
@@ -1190,15 +1234,17 @@ window.addEventListener("DOMContentLoaded", async () => {
         allWordsEl.classList.add("pushed");
       }, OPEN_CLOSE_MS);
     });
+    setTimeout(() => {
+      document.querySelectorAll(".word").forEach((w, i) => {
+        setTimeout(() => w.classList.add("hinted"), i * 120);
+        setTimeout(() => w.classList.remove("hinted"), i * 120 + 1000);
+      });
+    }, 500);
   });
 
   /* ----------------------------
      Bottom slideshow items + word mapping (needed!)
   ---------------------------- */
-  const slideFrame = document.querySelector(".random-slideshow-frame");
-  const slideCap = document.querySelector(".random-slideshow-caption");
-  const flash = document.querySelector(".random-slideshow-flash");
-
   const items = [];
   function pushUnique(src, project) {
     if (!src) return;
