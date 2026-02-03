@@ -464,6 +464,9 @@
         box-shadow:0 0 20px rgba(0,0,0,.5);
         border-radius:4px;
         object-fit:contain;
+        touch-action: pan-y; /* autorise le scroll vertical, mais on gère le swipe horizontal */
+        -webkit-user-select: none;
+        user-select: none;
       }
       .lightbox-content{
         display:flex;
@@ -1040,6 +1043,57 @@ window.addEventListener("DOMContentLoaded", async () => {
     else if (e.key === "ArrowRight") showLightboxAt(lightboxIndex + 1);
     else if (e.key === "ArrowLeft") showLightboxAt(lightboxIndex - 1);
   });
+
+  // ✅ Mobile: tap left/right + swipe to navigate in lightbox
+(function enableLightboxTouchNav() {
+  let startX = 0;
+  let startY = 0;
+  let moved = false;
+
+  // Tap zones (left/right)
+  lightbox.addEventListener("click", (e) => {
+    // Si on clique le fond (pas l'image), ton code existant ferme déjà la lightbox.
+    // Ici on veut gérer le clic SUR l'image / contenu.
+    const isOnImage = e.target === lightboxImg;
+    if (!isOnImage) return;
+
+    const rect = lightboxImg.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+
+    if (x < rect.width * 0.5) showLightboxAt(lightboxIndex - 1);
+    else showLightboxAt(lightboxIndex + 1);
+  });
+
+  // Swipe (horizontal)
+  lightbox.addEventListener("touchstart", (e) => {
+    if (!lightbox.classList.contains("visible")) return;
+    const t = e.touches[0];
+    startX = t.clientX;
+    startY = t.clientY;
+    moved = false;
+  }, { passive: true });
+
+  lightbox.addEventListener("touchmove", (e) => {
+    if (!lightbox.classList.contains("visible")) return;
+    moved = true;
+  }, { passive: true });
+
+  lightbox.addEventListener("touchend", (e) => {
+    if (!lightbox.classList.contains("visible")) return;
+    if (!moved) return;
+
+    const t = e.changedTouches[0];
+    const dx = t.clientX - startX;
+    const dy = t.clientY - startY;
+
+    // swipe horizontal uniquement (évite de déclencher quand on scroll)
+    if (Math.abs(dx) < 35) return;
+    if (Math.abs(dy) > Math.abs(dx) * 0.8) return;
+
+    if (dx < 0) showLightboxAt(lightboxIndex + 1); // swipe left => next
+    else showLightboxAt(lightboxIndex - 1);        // swipe right => prev
+  }, { passive: true });
+})();
 
   // Modules
   function renderModules(blocks = []) {
