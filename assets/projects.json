@@ -1,7 +1,7 @@
 {
   "SOMA [Live A/V]": {
     "persona": "maurice",
-    "description": "- Musique live & installation A/V -<br><br>Dans le cadre de l’Été Métropolitain 2025 (à BORDEAUX), J'ai travaillé sur un dispositif immersif unique autour du film «Koyaanisqatsi», film culte réalisé par Godfrey Reggio en 1982.<br> En réécrivant entièrement la bande sonore et en dispositionant le public au centre d'un système de diffusion spatialisé, le tout programmé avec MAX/MSP, nous avons modernisé le travail sonore pour appuyer le public à avoir une réflexion profonde sur la relation entre l’homme, la nature, et la technologie.<br><br>Produit par Kloudbox & Bordeaux Métropole<br><br>Compositeurs : Maurice Lebrun et Romain Campet<br>Ingérieur son : Pierre Criscolo<br>Production : Nina Ducouret",
+    "description": "- Musique live & installation A/V -<br><br>Dans le cadre de l’Été Métropolitain 2025 (BORDEAUX), J'ai travaillé sur un dispositif de diffusion immersif autour du film «Koyaanisqatsi», film culte réalisé par Godfrey Reggio en 1982.<br> Pour ce ciné-concert, nous avons positionné le public au centre d'un système sonore spatialisé, programmé avec MAX/MSP, et nous avons réécrit complètement la bande son. Du sound design (puisqu’il n’en est pas doté d’origine) à la composition d’une nouvelle bande sonore électronique (pour remplacer celle de Philip Glass).<br>Cette relecture technique et contemporaine du son est venue appuyer le thème principal du film : La relation entre l’homme, la nature, et la technologie.<br> L’idée était de revoir ce film à l’aube d’une nouvelle ère, encore plus technique et plus précipitée. De prendre le temps, de s’assoir et de réfléchir.<br><br>Produit par <a href='https://www.instagram.com/collectif_kloudbox/' target='_blank'>Kloudbox</a> & Bordeaux Métropole<br><br>Compositeurs : Maurice Lebrun et <br><a href='https://www.instagram.com/romain_campet' target='_blank'>Romain Campet</a><br>Ingérieur son : <a href='https://www.instagram.com/pierre.crscl/' target='_blank'>Pierre Criscolo</a><br>Production : Nina Ducouret",
     "blocks": [
       {
         "type": "carousel",
@@ -26,7 +26,7 @@
   },
   "BONNES VACANCES AU CHÔMAGE [Série]": {
     "persona": "maurice",
-    "description": "- Série Documentaire -<br><br>Darbo était la plus ancienne usine de transformation de bois des Landes. Après avoir été rachetée par divers fonds internationaux, elle a mis la clef sous la porte. Comment les ex-salariés se battent pour obtenir justice et trouver un sens à leurs vies d’après ?<br><br>Co-écrit et réalisé avec Julien Campet<br>Produit par Kloudbox et Far Ouest",
+    "description": "- Série Documentaire -<br><br>Darbo était la plus ancienne usine de transformation de bois des Landes. Après avoir été rachetée par divers fonds internationaux, elle a mis la clef sous la porte. Comment les ex-salariés se battent pour obtenir justice et trouver un sens à leurs vies d’après ?<br><br>Co-écrit et réalisé avec Julien Campet<br>Produit par <a href='https://www.instagram.com/collectif_kloudbox/' target='_blank'>Kloudbox</a> et <a href='https://www.revue-farouest.fr/' target='_blank'>Far Ouest</a>",
     "blocks": [
       {
         "type": "carousel",
@@ -70,7 +70,7 @@
   },
   "JUSTICE & MECAOCTET [Film]": {
     "persona": "maurice",
-    "description": "- Film documentaire -<br><br>MECAOCTET conçoit des machines spéciales pour le spectacle vivant. Depuis plus d'une dizaines d'années, ils travaillent main dans la main avec JUSTICE pour imaginer la scénographie de leurs spectacles.<br>Comment fabriquer ces machines et qui sont les architectes de ces show démesurés ?<br> J'ai suivi leur équipe sur la dernière tournée -HYPERDRAMA-.<br><br>Produit par Kloudbox<br><br>Réalisateur : Maurice Lebrun<br>Mixage : Pierre Criscolo",
+    "description": "- Film documentaire -<br><br><a href='https://www.mecaoctet.fr/' target='_blank'>Mecaoctet</a> conçoit des machines spéciales pour le spectacle vivant. Depuis plus d'une dizaines d'années, ils travaillent main dans la main avec <a href='https://www.justice.church/' target='_blank'>Justice</a> pour imaginer la scénographie de leurs spectacles.<br>Comment fabriquer ces machines? Qui sont les architectes de ces show démesurés ?<br> J'ai suivi leur équipe sur la dernière tournée -HYPERDRAMA-.<br><br>Produit par <a href='https://www.instagram.com/collectif_kloudbox/' target='_blank'>Kloudbox</a><br><br>Réalisateur : Maurice Lebrun<br>Mixage : <a href='https://www.instagram.com/pierre.crscl/' target='_blank'>Pierre Criscolo</a>",
     "blocks": [
       {
         "type": "carousel",
@@ -187,7 +187,7 @@
 },
 "SEULS SOUS LES PINS [Livre]": {
     "persona": "maurice",
-    "description": "- Livre photographique -<br><br>Seuls sous les pins est le premier sujet sur lequel j’ai travaillé comme photographe. Il est fondateur pour moi puisqu’il s’agit de défendre et raconter mon pays (les Landes).<br> Pour cet essai, je me suis associé à Benjamin Caule, archéologue et spécialiste de la Landes Gascone.<br> Ensemble, nous inscrivons le pin, son histoire et son industrie dans le paysage marécageux originel des Landes.<br>Bienvenue dans les Landes post-moderne.<br><br>Photographie : Maurice Lebrun<br>Textes : Benjamin Caule<br><br>Exposé à Bordeaux et à la maison de la photographie des Landes",
+    "description": "- Livre photographique -<br><br>Seuls sous les pins est le premier sujet sur lequel j’ai travaillé comme photographe. Il est fondateur pour moi puisqu’il s’agit de défendre et raconter mon pays (les Landes).<br> Pour cet essai, je me suis associé à Benjamin Caule, archéologue et spécialiste de la Landes Gascone.<br> Ensemble, nous inscrivons le pin, son histoire et son industrie dans le paysage marécageux originel des Landes.<br>Bienvenue dans les Landes post-moderne.<br><br>Photographie : Maurice Lebrun<br>Textes : Benjamin Caule<br>Edition <a href='https://diubiban.fr/beldura/ocg/' target='_blank'>Beldura</a><br><br> Exposé à Bordeaux et à la maison de la photographie des Landes",
     "blocks": [
     {
         "type": "carousel",
