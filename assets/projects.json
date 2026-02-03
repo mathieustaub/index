@@ -91,6 +91,23 @@
       }
     ]
   },
+  "ONLY FEMS [Film]": {
+    "persona": "maurice",
+    "description": "- Film d'art -<br><br>Only Fems explore le désir caché d’hommes hétéros pour des formes de féminité présentes sur les applications de rencontre telles que Grindr.<br> À travers des audios - les voix anonymes des plans c*Is de Cristiano - la vidéo dévoile une attirance fétichisée, honteuse, marquée par le sexisme et la peur. Entre journal intime, confession audio et contemplation visuelle, Only Fems interroge notre rapport au désir, au genre, aux écrans, et à la violence du fantasme lorsqu’il ne laisse aucune place à l’amour.<br><br>Acquisition du Frac Poitou-Charentes<br><br>Réalisation : <a href='https://www.instagram.com/la__guesh/' target='_blank'>Cristiano Codeço De Amorim</a><br>Production : <a href='https://www.instagram.com/kimono_production/' target='_blank'>Kimono</a><br>Modèle : <a href='https://www.instagram.com/4_after_midday/' target='_blank'>Naho</a><br>Image / musique : Maurice Lebrun & Franky Fahrenheit pour <a href='https://www.instagram.com/collectif_kloudbox/' target='_blank'>Kloudbox</a><br><br>Avec le soutien de la Direction régionale des Affaires culturelles de Nouvelle-Aquitaine et le soutien de la ville de bordeaux",
+    "blocks": [
+      {
+        "type": "carousel",
+        "images": ["./assets/img/fems/01.jpg",
+                  "./assets/img/fems/02.jpg",
+                  "./assets/img/fems/03.jpg",
+                  "./assets/img/fems/04.jpg"]
+      },
+      {
+        "type": "youtube",
+        "youtubeId": "TH99hxm8Nsk"
+      }
+    ]
+  },
   "GRAN TURISMO [Livre]": {
     "persona": "maurice",
     "description": "- Livre photographique -<br><br>Après Seuls Sous Les Pins (mon premier livre), ce livre photographique, en cours de conception, est un projet de recherche-action mêlant recherche et photographie.<br>Réalisé en collaboration avec Camille Mortelette, géographe et urbaniste, le projet interroge l’architecture devenue jetable, nourrie par une culture du consommable et de la satisfaction immédiate.<br>Une réflexion sur la manière dont l'humain façonne son territoire à l'image de sa société : le capital.<br><br>À venir courant de l'année 2026.<br><br>Photographie : Maurice Lebrun<br>Textes : Camille Mortelette",
@@ -249,7 +266,7 @@
 },   
   "#Films": {
     "persona": "maurice",
-    "description": "Ma pratique de la photographie m'a naturellement amené à la fabrique d'images animées.<br>----------<br>IMAGE est une collection de séquences de mes projets film.<br> Du tsunami qui a ravagé Fukushima aux salariés de Darbo à Linxe.<br><br>COSMOLOGIA est mon premier court métrage de fiction. Il questionne l’environnement spirituel dans lequel nous évoluons en tant qu’être humain.<br>J'ai également composé toute la bande sonore de ce film.<br><br>MORVARID K est le portrait d’une artiste plasticienne franco-iranienne.<br><br>LA DUCHESSE est un court métrage de <br><a href='https://www.instagram.com/romain_campet' target='_blank'>Romain Campet</a>et j’ai travaillé comme chef opérateur sur ce film.<br> Il questionne l’avarice et l’apparence qu’elle nous donne.",
+    "description": "Ma pratique de la photographie m'a naturellement amené à la fabrique d'images animées.<br>----------<br>IMAGE est une collection de séquences de mes projets film.<br> Du tsunami qui a ravagé Fukushima aux salariés de Darbo à Linxe.<br><br>COSMOLOGIA est mon premier court métrage de fiction. Il questionne l’environnement spirituel dans lequel nous évoluons en tant qu’être humain.<br>J'ai également composé toute la bande sonore de ce film.<br><br>MORVARID K est le portrait d’une artiste plasticienne franco-iranienne.<br><br>LA DUCHESSE est un court métrage de <br><a href='https://www.instagram.com/romain_campet' target='_blank'>Romain Campet</a> et j’ai travaillé comme chef opérateur sur ce film.<br> Il questionne l’avarice et l’apparence qu’elle nous donne.",
     "blocks": [
       {
         "type": "youtube",
