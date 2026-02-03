@@ -137,21 +137,22 @@
       }
 
       .selected-word-container{
-        margin-bottom:10px;
+        margin-bottom:0px;
         min-height:20px;
         position:relative;
       }
 
       .selected-project-title{
-        font-family:"Avenir Book";
+        font-family:"Avenir Black";
         font-weight:normal;
-        font-style:oblique;
-        margin:0 0 10px 0;
+        font-style:none;
+        font-size: 25px;
+        margin:0 0 0px 0;
         opacity:0;
         transition:opacity .4s ease;
         display:inline-block;
         cursor:pointer;
-        color:var(--accent);
+        color:var(--fg);
       }
       .selected-project-title.visible{ opacity:1; }
 
@@ -362,7 +363,7 @@
       .all-words.pushed{ margin-top:10px; }
 
       span.word{
-        font-family:"Avenir Book";
+        font-family:"Avenir book";
         font-weight:normal;
         font-style:oblique;
         cursor:pointer;
@@ -384,7 +385,11 @@
         font-style:normal;
       }
 
-      .word.is-highlighted{ color:var(--accent); }
+      .word.is-highlighted{ 
+        color:var(--accent);
+        /*font-family: "avenir heavy";*/
+        font-style: none;
+      }
 
       .words-meta{
         margin-bottom: 0px;
@@ -616,6 +621,14 @@
             <a href="https://www.ircam.fr/lircam" target="_blank" rel="noopener noreferrer">l’IRCAM Paris</a>
           </p>
 
+          <div class="words-meta">
+            <span class="word">#Photographie</span>
+            <span class="word">#Films</span>
+            <span class="word">#Musique</span>
+            <span class="word">#MaxMsp</span>
+            <span class="word cv-word">Curriculum Vitae</span>
+          </div>
+
           <div class="caroussel-container">
             <div class="selected-word-container">
               <p class="selected-project-title"></p>
@@ -640,14 +653,6 @@
                 <p class="word-description description-project"></p>
               </div>
             </div>
-          </div>
-
-          <div class="words-meta">
-            <span class="word">#Photographie</span>
-            <span class="word">#Films</span>
-            <span class="word">#Musique</span>
-            <span class="word">#MaxMsp</span>
-            <span class="word cv-word">Curriculum Vitae</span>
           </div>
 
           <div class="all-words">
