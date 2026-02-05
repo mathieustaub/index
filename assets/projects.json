@@ -1,63 +1,352 @@
 {
-  "Chien de pluie": {
-    "description": "Description for Chien de pluie.",
-    "images": [
-      "./assets/placeholder.jpg",
-      "./assets/placeholder2.jpg",
-      "./assets/placeholder.jpg",
-      "./assets/placeholder2.jpg",
-      "./assets/placeholder.jpg"
+  "SOMA [Live A/V]": {
+    "persona": "maurice",
+    "description": "- Musique live & installation A/V -<br><br>Dans le cadre de l’Été Métropolitain 2025 (BORDEAUX), j'ai travaillé sur un dispositif de diffusion immersif autour du film «Koyaanisqatsi», film culte réalisé par Godfrey Reggio en 1982.<br> Pour ce ciné-concert, nous avons positionné le public au centre d'un système sonore spatialisé, programmé avec MAX/MSP, et nous avons réécrit complètement la bande son. Du sound design (puisqu’il n’en est pas doté d’origine) à la composition d’une nouvelle bande sonore électronique (pour remplacer celle de Philip Glass).<br>Cette relecture technique et contemporaine du son est venue appuyer le thème principal du film : La relation entre l’homme, la nature, et la technologie.<br> L’idée était de revoir ce film à l’aube d’une nouvelle ère, encore plus technique et plus précipitée. De prendre le temps, de s’assoir et de réfléchir.<br><br>Produit par <a href='https://www.instagram.com/collectif_kloudbox/' target='_blank'>Kloudbox</a> & Bordeaux Métropole<br><br>Compositeurs : Maurice Lebrun et <br><a href='https://www.instagram.com/romain_campet' target='_blank'>Romain Campet</a><br>Ingérieur son : <a href='https://www.instagram.com/pierre.crscl/' target='_blank'>Pierre Criscolo</a><br>Production : Nina Ducouret",
+    "blocks": [
+      {
+        "type": "carousel",
+        "images": ["./assets/img/soma/soma01.jpg",
+                  "./assets/img/soma/soma02.jpg",
+                  "./assets/img/soma/soma03.jpeg",
+                  "./assets/img/soma/koyaa01.jpg",
+                  "./assets/img/soma/koyaa02.jpg",
+                  "./assets/img/soma/koyaa03.jpg"]
+      },
+      {
+        "type": "youtube",
+        "youtubeId": "bvZaH6OdNrw"
+      },
+      {
+        "type": "links",
+        "links": [
+          { "label": "./files", "url": "https://etemetropolitain.bordeaux-metropole.fr/wp-content/uploads/SOMA-Kloudbox.pdf" }
+        ]
+      }
     ]
   },
-  "Landes de gascognes": {
-    "description": "Description for Landes de gascognes.",
-    "images": [
-      "./assets/placeholder2.jpg",
-      "./assets/placeholder.jpg",
-      "./assets/placeholder2.jpg",
-      "./assets/placeholder.jpg",
-      "./assets/placeholder2.jpg"
+  "BONNES VACANCES AU CHÔMAGE [Série]": {
+    "persona": "maurice",
+    "description": "- Série Documentaire -<br><br>Darbo était la plus ancienne usine de transformation de bois des Landes. Après avoir été rachetée par divers fonds internationaux, elle a mis la clef sous la porte. Comment les ex-salariés se battent pour obtenir justice et trouver un sens à leurs vies d’après ?<br><br>Co-écrit et réalisé avec Julien Campet<br>Produit par <a href='https://www.instagram.com/collectif_kloudbox/' target='_blank'>Kloudbox</a> et <a href='https://www.revue-farouest.fr/' target='_blank'>Far Ouest</a>",
+    "blocks": [
+      {
+        "type": "carousel",
+        "images": ["./assets/img/darbo/02.jpg",
+                  "./assets/img/darbo/03.jpg",
+                  "./assets/img/darbo/05.jpg",
+                  "./assets/img/darbo/06.jpg",
+                  "./assets/img/darbo/08.jpg",
+                  "./assets/img/darbo/09.jpg",
+                  "./assets/img/darbo/11.jpg",
+                  "./assets/img/darbo/13.jpg"]
+      },
+      {
+        "type": "vimeo",
+        "vimeoId": "284316270",
+        "caption": "Épisode 1"
+      },
+      {
+        "type": "vimeo",
+        "vimeoId": "284328000",
+        "caption": "Épisode 2"
+      },
+      {
+        "type": "vimeo",
+        "vimeoId": "284327702",
+        "caption": "Épisode 3"
+      },
+      {
+        "type": "vimeo",
+        "vimeoId": "284328257",
+        "caption": "Épisode 4"
+      },
+      {
+        "type": "links",
+        "links": [
+          { "label": "./files", "url": "https://www.revue-farouest.fr/feuilletons/bonnes-vacances-au-chomage/" }
+        ]
+      }
     ]
   },
-  "Éclairs": {
-    "description": "Description for Éclairs.",
-    "images": [
-      "./assets/placeholder.jpg",
-      "./assets/placeholder2.jpg",
-      "./assets/placeholder.jpg",
-      "./assets/placeholder2.jpg",
-      "./assets/placeholder.jpg"
+  "JUSTICE & MECAOCTET [Film]": {
+    "persona": "maurice",
+    "description": "- Film documentaire -<br><br><a href='https://www.mecaoctet.fr/' target='_blank'>Mecaoctet</a> conçoit des machines spéciales pour le spectacle vivant. Depuis plus d'une dizaines d'années, ils travaillent main dans la main avec <a href='https://www.justice.church/' target='_blank'>Justice</a> pour imaginer la scénographie de leurs spectacles.<br>Comment fabriquer ces machines? Qui sont les architectes de ces show démesurés ?<br> J'ai suivi leur équipe sur la dernière tournée -HYPERDRAMA-.<br><br>Produit par <a href='https://www.instagram.com/collectif_kloudbox/' target='_blank'>Kloudbox</a><br><br>Réalisateur : Maurice Lebrun<br>Mixage : <a href='https://www.instagram.com/pierre.crscl/' target='_blank'>Pierre Criscolo</a>",
+    "blocks": [
+      {
+        "type": "carousel",
+        "images": ["./assets/img/justice/justice03.jpg",
+                  "./assets/img/justice/justice04.jpg",
+                  "./assets/img/justice/justice09.jpg",
+                  "./assets/img/justice/justice11.jpg",
+                  "./assets/img/justice/justice13.jpg",
+                  "./assets/img/justice/justice15.jpg",
+                  "./assets/img/justice/justice17.jpg",
+                  "./assets/img/justice/justice21.jpg",
+                  "./assets/img/justice/justice24.jpg",
+                  "./assets/img/justice/justice25.jpg"]
+      },
+      {
+        "type": "youtube",
+        "youtubeId": "yJeHnI4Auew"
+      }
     ]
   },
-  "Reportages": {
-    "description": "Description for Reportages.",
-    "images": [
-      "./assets/placeholder2.jpg",
-      "./assets/placeholder.jpg",
-      "./assets/placeholder2.jpg",
-      "./assets/placeholder.jpg",
-      "./assets/placeholder2.jpg"
+  "ONLY FEMS [Film]": {
+    "persona": "maurice",
+    "description": "- Film d'art -<br><br>Only Fems explore le désir caché d’hommes hétéros pour des formes de féminité présentes sur les applications de rencontre telles que Grindr.<br> À travers des audios - les voix anonymes des plans c*Is de Cristiano - la vidéo dévoile une attirance fétichisée, honteuse, marquée par le sexisme et la peur. Entre journal intime, confession audio et contemplation visuelle, Only Fems interroge notre rapport au désir, au genre, aux écrans, et à la violence du fantasme lorsqu’il ne laisse aucune place à l’amour.<br><br>Acquisition du Frac Poitou-Charentes<br><br>Réalisation : <a href='https://www.instagram.com/la__guesh/' target='_blank'>Cristiano Codeço De Amorim</a><br>Production : <a href='https://www.instagram.com/kimono_production/' target='_blank'>Kimono</a><br>Modèle : <a href='https://www.instagram.com/4_after_midday/' target='_blank'>Naho</a><br>Image / musique : Maurice Lebrun & Franky Fahrenheit pour <a href='https://www.instagram.com/collectif_kloudbox/' target='_blank'>Kloudbox</a><br><br>Avec le soutien de la Direction régionale des Affaires culturelles de Nouvelle-Aquitaine et le soutien de la ville de bordeaux",
+    "blocks": [
+      {
+        "type": "carousel",
+        "images": ["./assets/img/fems/01.jpg",
+                  "./assets/img/fems/02.jpg",
+                  "./assets/img/fems/03.jpg",
+                  "./assets/img/fems/04.jpg"]
+      },
+      {
+        "type": "youtube",
+        "youtubeId": "TH99hxm8Nsk"
+      }
     ]
   },
-  "Notes": {
-    "description": "Description for Notes.",
-    "images": [
-      "./assets/placeholder.jpg",
-      "./assets/placeholder2.jpg",
-      "./assets/placeholder.jpg",
-      "./assets/placeholder2.jpg",
-      "./assets/placeholder.jpg"
+  "GRAN TURISMO [Livre]": {
+    "persona": "maurice",
+    "description": "- Livre photographique -<br><br>Après Seuls Sous Les Pins (mon premier livre), ce livre photographique, en cours de conception, est un projet de recherche-action mêlant recherche et photographie.<br>Réalisé en collaboration avec Camille Mortelette, géographe et urbaniste, le projet interroge l’architecture devenue jetable, nourrie par une culture du consommable et de la satisfaction immédiate.<br>Une réflexion sur la manière dont l'humain façonne son territoire à l'image de sa société : le capital.<br><br>À venir courant de l'année 2026.<br><br>Photographie : Maurice Lebrun<br>Textes : Camille Mortelette",
+    "blocks": [
+    {
+        "type": "carousel",
+        "images": ["./assets/img/turismo/02.jpg",
+                  "./assets/img/turismo/03.jpg",
+                  "./assets/img/turismo/04.jpg",
+                  "./assets/img/turismo/05.jpg",
+                  "./assets/img/turismo/06.jpg",
+                  "./assets/img/turismo/07.jpg",
+                  "./assets/img/turismo/08.jpg",
+                  "./assets/img/turismo/09.jpg",
+                  "./assets/img/turismo/10.jpg",
+                  "./assets/img/turismo/11.jpg"]
+    },
+    {
+        "type": "pdf",
+        "src": "./assets/pdf/GT.pdf",
+        "height": 864
+    },
+    {
+      "type": "links",
+      "links": [
+        {
+          "label": "./file",
+          "url": "./assets/pdf/GT.pdf",
+          "download": true
+        }
+      ]
+    }
+  ]
+},
+"MEMORIES OF LAZARUS [Expo & Instal]": {
+    "persona": "maurice",
+    "description": "- Exposition et installation numérique -<br><br>Peu après la sortie de Seuls Sous Les Pins, l’IA pointait tout juste le bout de son nez sous forme de script open source collaboratif en python.<br> A cette période, je réfléchissais à ce qu’allait devenir les carcasses d’usines que j’avais photographié, à présent vidées de leurs salariés et de leurs substances.<br> J’avais une idée précise de ce qu’allait devenir notre monde à travers la révolution artificielle et je souhaitais théoriser/illustrer ma pensée (cf pdf memories of Lazarus).<br><br>J’ai donc entraîné une IA, que j’ai appelé -Henri- (en hommage a Henri Rousseau) et avec laquelle j’ai collaboré sur des tableaux numériques. Je la nourrissais avec mes photos de carcasses et lui demandait de les imaginer 100 ans plus tard.<br>J'ai sélectionné un corpus d'oeuvres avec soin et entretenus de longs échanges de travail avec Henri. Ainsi naissait ma collaboration avec une entité numérique.<br><br>Pour notre exposition à l’institut français de Berlin, j’ai conçu (avec max/msp et pure data) une interface interactive. Interface à travers laquelle les spectateurs ont pu converser avec Henri (cf vidéo en bas).<br> La boucle était bouclée, Henri était en mesure, tout comme moi, de défendre nos oeuvres.<br><br>Exposé à l'institut Français de <a href='https://vimeo.com/966723474?share=copy&fl=sv&fe=ci' target='_blank'>Berlin</a>",
+    "blocks": [
+    {
+        "type": "pdf",
+        "src": "./assets/pdf/lazarus.pdf",
+        "height": 864
+    },
+    {
+      "type": "links",
+      "links": [
+        {
+          "label": "./file",
+          "url": "./assets/pdf/lazarus.pdf",
+          "download": true
+        }
+      ]
+    },
+    {
+        "type": "carousel",
+        "images": ["./assets/img/lazarus/IA-01.jpg",
+                  "./assets/img/lazarus/IA-02.jpg",
+                  "./assets/img/lazarus/IA-03.jpg",
+                  "./assets/img/lazarus/IA-04.jpg",
+                  "./assets/img/lazarus/IA-05.jpg",
+                  "./assets/img/lazarus/IA-06.jpeg",
+                  "./assets/img/lazarus/ifberlin.jpg",
+                  "./assets/img/lazarus/FA01.jpeg",
+                  "./assets/img/lazarus/FA02.jpeg",
+                  "./assets/img/lazarus/FA03.jpeg"
+                  ]
+    },
+    {
+        "type": "youtube",
+        "youtubeId": "mmIOTZ-pglI",
+        "caption": "Interface interactive audiovisuelle avec l'IA de HENRI"
+    }
+  ]
+},
+"SEULS SOUS LES PINS [Livre]": {
+    "persona": "maurice",
+    "description": "- Livre photographique -<br><br>Seuls sous les pins est le premier sujet sur lequel j’ai travaillé comme photographe. Il est fondateur pour moi puisqu’il s’agit de défendre et raconter mon pays (les Landes).<br> Pour cet essai, je me suis associé à Benjamin Caule, archéologue et spécialiste de la Landes Gascone.<br> Ensemble, nous inscrivons le pin, son histoire et son industrie dans le paysage marécageux originel des Landes.<br>Bienvenue dans les Landes post-moderne.<br><br>Photographie : Maurice Lebrun<br>Textes : Benjamin Caule<br>Edition <a href='https://diubiban.fr/beldura/ocg/' target='_blank'>Beldura</a><br><br> Exposé à Bordeaux et à la maison de la photographie des Landes",
+    "blocks": [
+    {
+        "type": "carousel",
+        "images": ["./assets/img/sslp/SSLP-01.jpeg",
+                  "./assets/img/sslp/SSLP-02.jpeg",
+                  "./assets/img/sslp/SSLP-03.jpeg",
+                  "./assets/img/sslp/SSLP-04.jpeg",
+                  "./assets/img/sslp/SSLP-05.jpeg",
+                  "./assets/img/sslp/SSLP-06.jpeg",
+                  "./assets/img/sslp/SSLP-07.jpeg",
+                  "./assets/img/sslp/SSLP-10.jpeg",
+                  "./assets/img/sslp/SSLP-11.jpeg"]
+    },
+    {
+        "type": "image",
+        "src": "./assets/img/sslp/01.jpg",
+        "alt": "Seuls sous les pins de Maurice Lebrun."
+    },
+    {
+        "type": "youtube",
+        "youtubeId": "bBsOuUhPTLk",
+        "caption": "Extrait du livre"
+    }
+  ]
+},
+  "#Photographie": {
+    "persona": "maurice",
+    "description": "La photographie est le medium par lequel je suis entré dans le monde de l'image.<br> 20 ans plus tard, j'ai réalisé de nombreuses expositions et possède une belle collection de travaux sur des thématiques variées.<br> Des plateaux de cinéma aux villages du Japon détruits par le tsunami en 2011.<br><br>Expositions :<br>- Maison Bourbon / 2021 BORDEAUX <br>- Institut Français / 2023 BERLIN<br>- Maison de la photographie / 2024 LABOUHEYRE<br>- La Flèche de Saint Michel / 2025 BORDEAUX",
+    "blocks": [
+      {
+      "type": "grid",
+      "images": [
+        "./assets/img/photographie/01.jpg",
+        "./assets/img/photographie/02.jpg",
+        "./assets/img/photographie/03.jpg",
+        "./assets/img/photographie/04.jpg",
+        "./assets/img/photographie/05.jpg",
+        "./assets/img/photographie/06.jpg",
+        "./assets/img/photographie/07.jpg",
+        "./assets/img/photographie/08.jpg",
+        "./assets/img/photographie/09.jpg",
+        "./assets/img/photographie/10.jpg",
+        "./assets/img/photographie/11.jpg",
+        "./assets/img/photographie/12.jpg",
+        "./assets/img/photographie/13.jpg",
+        "./assets/img/photographie/14.jpg",
+        "./assets/img/photographie/15.jpg",
+        "./assets/img/photographie/16.jpg",
+        "./assets/img/photographie/17.jpg",
+        "./assets/img/photographie/18.jpg",
+        "./assets/img/photographie/19.jpg",
+        "./assets/img/photographie/20.jpg",
+        "./assets/img/photographie/21.jpg",
+        "./assets/img/photographie/22.jpg",
+        "./assets/img/photographie/23.jpg",
+        "./assets/img/photographie/24.jpg",
+        "./assets/img/photographie/25.jpg",
+        "./assets/img/photographie/26.jpg",
+        "./assets/img/photographie/27.jpg",
+        "./assets/img/photographie/28.jpg",
+        "./assets/img/photographie/29-2.jpg",
+        "./assets/img/photographie/30.jpg",
+        "./assets/img/photographie/31.jpg",
+        "./assets/img/photographie/32.jpg",
+        "./assets/img/photographie/33.jpg",
+        "./assets/img/photographie/34.jpg",
+        "./assets/img/photographie/35.jpg",
+        "./assets/img/photographie/36.jpg",
+        "./assets/img/photographie/37.jpg",
+        "./assets/img/photographie/38.jpg",
+        "./assets/img/photographie/39.jpg",
+        "./assets/img/photographie/40.jpg"
+      ]
+    }
+  ]
+},   
+  "#Films": {
+    "persona": "maurice",
+    "description": "Ma pratique de la photographie m'a naturellement amené à la fabrique d'images animées.<br>----------<br>IMAGE est une collection de séquences de mes projets film.<br> Du tsunami qui a ravagé Fukushima aux salariés de Darbo à Linxe.<br><br>COSMOLOGIA est mon premier court métrage de fiction. Il questionne l’environnement spirituel dans lequel nous évoluons en tant qu’être humain.<br>J'ai également composé toute la bande sonore de ce film.<br><br>MORVARID K est le portrait d’une artiste plasticienne franco-iranienne.<br><br>LA DUCHESSE est un court métrage de <br><a href='https://www.instagram.com/romain_campet' target='_blank'>Romain Campet</a> et j’ai travaillé comme chef opérateur sur ce film.<br> Il questionne l’avarice et l’apparence qu’elle nous donne.",
+    "blocks": [
+      {
+        "type": "youtube",
+        "youtubeId": "2OCMMWx7vNg",
+        "caption": "Bande démo"
+      },
+      {
+        "type": "youtube",
+        "youtubeId": "3s1U7LcVB88",
+        "caption": "Court Métrage réalisé et mis en musique par Maurice Lebrun"
+      },
+      {
+        "type": "youtube",
+        "youtubeId": "v6x_sdXkfDo",
+        "caption": "Portrait réalisé et mis en musique par Maurice Lebrun"
+      },
+      {
+        "type": "youtube",
+        "youtubeId": "z-KqDgSRQaE",
+        "caption": "Court Métrage de Romain Campet. DOP : Maurice Lebrun"
+      }
     ]
   },
-  "Confession d'un enfoiré": {
-    "description": "Description for Confession d'un enfoiré. <a href='https://youtube.com' target='_blank'>En savoir plus</a>",
-    "images": [
-      "./assets/placeholder2.jpg",
-      "./assets/placeholder.jpg",
-      "./assets/placeholder2.jpg",
-      "./assets/placeholder.jpg",
-      "./assets/placeholder2.jpg",
-      "./assets/placeholder.jpg"
+  "#Musique": {
+    "persona": "franky",
+    "description": "<a href='https://www.instagram.com/franky_fahrenheit/' target='_blank'>Franky</a> est mon alias compositeur.<br> De musique de films, de musique électronique live.<br><br>Ma pratique de la musique a toujours été étroitement liée aux images que je produisais. J’écrivais pour mes films ou pour les autres.<br>Mais depuis quelques temps, l’envie de monter sur scène et d’interpréter l’univers spatial et loufoque de Franky est devenu une immense source de bonheur.<br> Aujourd’hui, beaucoup de mes projets tournent autour de la musique, de la recherche sonore mélée aux visuels(voir #MaxMsp)<br><br>J'ai évolué avec les groupes :<br><a href='https://www.instagram.com/pecnologie/' target='_blank'>Pecnologie</a> (1 Album)<br>Ras El Hanout (1 EP)<br><br>Un album et un live sont en préparation.",
+    "blocks": [
+      {
+        "type": "image",
+        "src": "./assets/img/FRANKY.jpg",
+        "alt": "Photographié par Romain Campet."
+      },
+      {
+        "type": "youtube",
+        "youtubeId": "f3E6dffCHIE",
+        "caption": "Franky sur scène"
+      },
+       {
+        "type": "youtube",
+        "youtubeId": "xuVC7AYzvK0",
+        "caption": "Le Banger de Pecnologie"
+      },
+      {
+        "type": "youtube",
+        "youtubeId": "WEPJdiFi3Zo",
+        "caption": "Franky avec Ras El Hanout chez Alriq"
+      }
     ]
-  }
+  },
+  "#MaxMsp": {
+    "persona": "franky",
+    "description": "Pour hybrider mes pratiques visuelles et sonores, je travaille sur Max/Msp.<br>Max est un espace logiciel pour créer votre propre univers visuel/sonore interactif.<br><br> En sortant de L'IRCAM, j'ai prototypé un système DMX/MIDI et tout un patch synthétiseur/arpégiateur algorithmique pour - SOMA -, j'ai fabriqué des interfaces A/V interactives pour mes expositions et imaginé un système de sonification de poèmes.<br><br>Je prototype pour des tiers.<br> N'hésitez pas à me proposer un projet.",
+    "blocks": [
+      {
+        "type": "carousel",
+        "images": ["./assets/img/max/01.jpg",
+                  "./assets/img/max/02.jpg",
+                  "./assets/img/max/03.jpg"]
+      },
+      {
+        "type": "youtube",
+        "youtubeId": "5yCbNLPC0fs",
+        "caption": "Sequencer Algorithmique dans Max/Msp"
+      }
+    ]
+  },
+    "Curriculum Vitae": {
+    "description": "- Biographie -<br><br>Carrossier à l’âge de 17 ans, J'ai traîné mes pieds dans les ateliers de réparations de voitures et les chantiers de construction avant de découvrir les images comme un moyen d’expression.<br> Lors de mon inévitable passage à Paris, j'ai travaillé avec Pip Chodorov sur «Free Radicals», un film sur la vague du cinéma expérimental emmenée par Jonas Mekas, Maurice Lemaitre, Maya Deren et bien d’autres.<br> Cette liberté totale de style, de ton, de forme portée par ce cinéma a été fondatrice pour moi. C’est ce qui m’a permis d’envisager mon expression comme un espace de possibilité infinie, où l’audace prime sur les moyens, et où l’essentiel est de faire, simplement.<br>Peu de temps après, je rencontrais au sein du collectif Kloudbox la famille et les ressources que je cherchais pour créer avec de nombreux médiums différents.<br><br> D’installations vidéo artistiques aux sujets documentaires photographiques. Du film indépendant aux vibrations sonores et musicales sur scène.<br>J'orchestre mon identité en perpétuelle mutation.",
+    "blocks": [
+      {
+        "type": "pdf",
+        "src": "./assets/pdf/cv2025.pdf",
+        "height": 864
+      },
+      {
+      "type": "links",
+      "links": [
+        {
+          "label": "./file",
+          "url": "./assets/pdf/cv2025.pdf",
+          "download": true
+        }
+      ]
+    }
+  ]
+}
 }
