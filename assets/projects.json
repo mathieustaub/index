@@ -205,7 +205,7 @@
 },
   "#Photographie": {
     "persona": "maurice",
-    "description": "La photographie est le medium par lequel je suis entré dans le monde de l'image.<br> 20 ans plus tard, j'ai réalisé de nombreuses expositions et possède une belle collection de travaux sur des thématiques variées.<br> Des plateaux de cinéma aux villages du Japon détruits par le tsunami en 2011.<br><br>Expositions :<br>- Maison Bourbon / 2021 BORDEAUX <br>- Institut Français / 2023 BERLIN<br>- Maison de la photographie / 2024 LABOUHEYRE<br>- La Flèche de Saint Michel / 2025 BORDEAUX",
+    "description": "La photographie est le medium par lequel je suis entré dans le monde de l'image.<br> 20 ans plus tard, j'ai réalisé de nombreuses expositions et possède une belle collection de travaux sur des thématiques variées.<br> Des hauts plateaux de Bolivie, aux manifestations pro-américaine de Séoul en passant par ma chère forêt des Landes.<br><br>Expositions :<br>- Maison Bourbon / 2021 BORDEAUX <br>- Institut Français / 2023 BERLIN<br>- Maison de la photographie / 2024 LABOUHEYRE<br>- La Flèche de Saint Michel / 2025 BORDEAUX",
     "blocks": [
       {
       "type": "grid",
@@ -256,7 +256,7 @@
 },   
   "#Films": {
     "persona": "maurice",
-    "description": "Ma pratique de la photographie m'a naturellement amené à la fabrique d'images animées.<br>----------<br>IMAGE est une collection de séquences de mes projets film.<br> Du tsunami qui a ravagé Fukushima aux salariés de Darbo à Linxe.<br><br>COSMOLOGIA est mon premier court métrage de fiction. Il questionne l’environnement spirituel dans lequel nous évoluons en tant qu’être humain.<br>J'ai également composé toute la bande sonore de ce film.<br><br><a href='https://www.morvaridk.com/' target='_blank'>MORVARID K</a> est le portrait d’une artiste plasticienne franco-iranienne.<br><br>LA DUCHESSE est un court métrage de <br><a href='https://www.instagram.com/romain_campet' target='_blank'>Romain Campet</a> et j’ai travaillé comme chef opérateur sur ce film.<br> Il questionne l’avarice et l’apparence qu’elle nous donne.",
+    "description": "Ma pratique de la photographie m'a naturellement amené à la fabrique d'images animées.<br>----------<br>IMAGES est une collection de séquences de mes projets film.<br> Du tsunami qui a ravagé Fukushima et Kamaishi aux salariés de Darbo à Linxe.<br><br>COSMOLOGIA est mon premier court métrage de fiction. Il questionne l’environnement spirituel dans lequel nous évoluons en tant qu’être humain.<br>J'ai également composé toute la bande sonore de ce film.<br><br><a href='https://www.morvaridk.com/' target='_blank'>MORVARID K</a> est le portrait d’une artiste plasticienne franco-iranienne.<br><br>LA DUCHESSE est un court métrage de <br><a href='https://www.instagram.com/romain_campet' target='_blank'>Romain Campet</a> et j’ai travaillé comme chef opérateur sur ce film.<br> Il questionne l’avarice et l’apparence qu’elle nous donne.",
     "blocks": [
       {
         "type": "youtube",
